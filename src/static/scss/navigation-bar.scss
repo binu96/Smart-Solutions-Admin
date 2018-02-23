@@ -1,0 +1,14 @@
+/*Start styles of navigation bar*/
+$login-avatar-background: #4C4C4C;
+
+.login-avatar {
+  margin: -10px;
+  .icon-menu {
+    .icon-button {
+      .account-circle {
+        color: $login-avatar-background;
+      }
+    }
+  }
+}
+/*Ending styles of navigation bar*/

@@ -1,0 +1,73 @@
+body{
+  background-color: lightslategrey;
+}
+
+/* Start styles of body*/
+.main-block {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.span {
+  font-size: small;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.side-list {
+  @extend .main-block;
+  width: 150px;
+
+  .circle {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+  },
+
+  .icon: {
+    margin: 0;
+  },
+
+  list: {
+    text-align: center;
+    padding: 10px 18px 10px;
+  },
+
+  .span {
+    font-size: small;
+    font-weight: bold;
+    font-family: inherit;
+
+    .single-value {
+
+      .figure {
+        font-weight: bold;
+        font-size: large;
+      },
+
+      .text: {
+        font-weight: normal;
+      },
+
+      .table-view {
+        //styling should be included
+      }
+    }
+  }
+}
+
+.card-view {
+  @extend .main-block;
+  display: flex;
+  padding-right: 10px;
+
+  .gridList {
+    width: 1190px;
+    overflow-y: auto;
+  },
+
+  @extend .span,
+}
+/*End styles of body*/
+
+

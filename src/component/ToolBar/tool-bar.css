@@ -1,0 +1,123 @@
+/*Main Navbar css*/
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-default {
+    background-color: #6bb856;
+    border-color: #00a02c;
+    border-radius: 0;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+.navbar-default .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #39ff9d;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    display: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #f3fbfe;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #d3eeff;
+}
+
+.nav-bar-title {
+    margin-top: 1px;
+    font-size: 15px;
+    color: #405360;
+
+}
+
+.navbar-toggle {
+    /*margin-top: 15px;*/
+    margin-bottom: 14px;
+}
+
+.container-fluid>.navbar-header {
+    margin-left: 18px;
+}
+
+.navbar-brand {
+    padding: 12px 15px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 20px;
+}
+
+.navbar-nav .dropdown-toggle {
+    color: #fff !important;
+}
+
+.navbar-nav .dropdown-toggle i {
+    font-size: 25px;
+    background-color: #d3eeff;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    padding: 10px 13px;
+    display: block;
+}
+
+.navbar-nav .dropdown-toggle.active i {
+    color: #f37579;
+}
+
+.navbar-nav__detail-dropdown {
+    padding: 9px 10px !important;
+}
+
+.navbar-nav__user-details-dropdown {
+    padding: 9px 10px !important;
+}
+
+.navbar-nav__user-image {
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.navbar-nav__notification-badge {
+    background-color: #f37579;
+    color: #fff;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    padding: 0 6px;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    z-index: 100;
+}
+
+.dropdown-menu {
+    border: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0 4px 10px rgba(191, 191, 191, 0.34);
+    box-shadow: 0 4px 10px rgba(191, 191, 191, 0.34);
+    padding: 0;
+    margin-top: 1px !important;
+}
+
+.dropdown-menu a {
+    color: #999 !important;
+    padding: 10px !important;
+    border-top: 1px solid #f5f5f5;
+}
